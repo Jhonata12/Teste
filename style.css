@@ -1,0 +1,677 @@
+body {
+    background-color:#6852a5;
+    overflow-x: hidden;
+}
+.PORTAL{
+    width: 500px;
+    margin-left: 575px;
+    margin-top: -100px;
+    border: none;
+}
+.PORTAL:hover{
+    transform: none;
+    border: none !important;
+    box-shadow: none !important;
+}
+header{
+    background-color: #9c7bf8;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.250);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.432);
+}
+
+.geral0{
+    display: flex;
+    justify-content: center;
+    background-color: #886cd6;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
+    height: 600px;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+    background-color: #886cd6;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
+    height: 600px;
+ 
+}   
+.geral2{
+    height: 550px;
+    
+}
+.texto{
+    scale: 150%;
+    margin-left: 125px;
+}
+.int{
+    width: 900px!important;
+    margin-right: 10px;
+    margin-top: 50px !important;
+    scale: 1.00 !important;
+}
+img{
+    display: flex;
+    width: 220px;
+    margin: 10px;
+    flex-direction: column;
+    border: solid 1px rgba(255, 255, 255, 0.144);
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+img:hover{
+    transform: scale(1.06);
+    border: solid 1px white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.imgV{
+    margin-left: 15px;
+}
+
+video{
+    border-radius: 15px;
+    margin: 35px;
+    margin-top: 10px !important;
+    
+}
+
+video:hover{
+    transform: scale(1.06);
+    border: solid 1px white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+h1{
+    font-family: Aileron;
+    color: white;
+}
+
+h2{
+    width: 250px;
+    margin-left: -25px;
+    font-family: Aileron;
+    color: white;
+}
+.t1{
+    margin-left: -35px;
+}
+.t2{
+    margin-left: -50px;
+}
+.t3{
+    margin-left: 10px;
+}
+.t4{
+    margin-left: -75px;
+}
+
+.geral2{
+    display: flex;
+    justify-content: center;
+    background-color: #886cd6;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
+}
+
+.pt1{
+    margin-left: 50px;
+   }
+
+   video{
+    max-width: 100%;
+    width: 170px;
+    margin-top: 100px;
+   }
+
+   .parte01V{
+
+    margin-left: -220px;
+    margin-right: -10px;
+    margin-top: 120px;
+   }
+ 
+
+   .parte02V{
+   
+    margin-right: -10px;
+    margin-top: 120px;
+   }
+  
+
+   .parte03V{
+ 
+    margin-right: -20px;
+    margin-top: 120px;
+   }
+  
+   .parte04V{
+ 
+    margin-right: -70px;
+    margin-top: 120px;
+   }
+ 
+   
+
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 370px) and (max-width: 449px){
+    
+   
+    .PORTAL{
+        margin: 0;
+        margin-top: -50px;
+        margin-left: 230px;
+        width: 500px !important;
+    }
+    header{
+        width: 890px;
+        margin-left: 10px;
+    }
+
+  .int{
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 20px;
+
+    }
+    .geral0{
+        width: 890px;
+        margin-left: 10px;
+        height: 450px;
+    }
+    .geral{
+        width: 890px;
+        margin-left: 10px;
+        height: 980px;
+
+    }
+    .geral2{
+        width: 890px;
+        margin-left: 10px;
+        height: 950px;
+    }
+
+    img{
+        width: 200px;
+    }
+    .pt1{
+        margin-right: -340px;
+        margin-left: 70px;
+    }
+    .t1{
+        margin-left: -40px;
+    }
+    
+
+
+    .pt2{
+        margin-right: 30px;
+        margin-top: 450px;
+    }
+    .t2{
+        margin-left: -55px;
+        
+    }
+
+
+    .pt3{
+        margin-right: -360px;
+    }
+    .t3{
+        margin-left: -7px;
+    }
+
+
+    .pt4{
+        margin-top: 450px;
+    }
+
+    video{
+        width: 150px;
+        margin-top: 100px;
+       }
+    
+
+.parte01V{
+    margin-right: -310px;
+    margin-top: 550px;
+    margin-left: -680px;
+}
+
+
+.parte02V{
+    margin-left: -30px;
+    margin-right: 120px;
+}
+
+.parte03V{
+    margin-right: -350px;
+    margin-top: 550px;
+    margin-left: -50px;
+}
+
+
+.parte04V{
+   
+    margin-right: -550px;
+}
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 450px) and (max-width: 950px) {
+    
+    body{
+        overflow-x: hidden !important;
+    }
+    .PORTAL{
+        margin: 0;
+        margin-top: -50px;
+        margin-left: 230px;
+        width: 500px !important;
+    }
+    header{
+        width: 890px;
+        margin-left: 10px;
+    }
+
+  .int{
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 80px;
+
+    }
+    .geral0{
+        width: 890px;
+        margin-left: 10px;
+        height: 500px;
+    }
+    .geral{
+        width: 890px;
+        margin-left: 10px;
+        height: 980px;
+
+    }
+    .geral2{
+        width: 890px;
+        margin-left: 10px;
+        height: 900px;
+    }
+
+    img{
+        width: 200px;
+    }
+    .pt1{
+        margin-right: -340px;
+        margin-left: 70px;
+    }
+    .t1{
+        margin-left: -40px;
+    }
+    
+
+
+    .pt2{
+        margin-right: 30px;
+        margin-top: 450px;
+    }
+    .t2{
+        margin-left: -55px;
+        margin-right: -5px;
+        
+    }
+
+
+    .pt3{
+        margin-right: -360px;
+    }
+    .t3{
+        margin-left: -7px;
+    }
+
+
+    .pt4{
+        margin-top: 450px;
+    }
+    
+
+video{
+    width: 130px;
+}
+
+.parte01V{
+    
+    margin-right: -290px;
+    margin-top: 550px;
+    margin-left: -550px;
+}
+
+.parte02V{
+   
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.parte03V{
+ 
+    margin-right: -320px;
+    margin-top: 550px;
+    margin-left: -50px;
+}
+.parte04V{
+
+    margin-right: -450px;
+}
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 100px) and (max-width: 369px){
+    
+   
+    .PORTAL{
+        margin: 0;
+        margin-top: -50px;
+        margin-left: 230px;
+        width: 500px !important;
+    }
+    header{
+        width: 890px;
+        margin-left: 10px;
+    }
+
+  .int{
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 80px;
+
+    }
+    .geral0{
+        width: 890px;
+        margin-left: 10px;
+        height: 450px;
+    }
+    .geral{
+        width: 890px;
+        margin-left: 10px;
+        height: 980px;
+
+    }
+    .geral2{
+        width: 890px;
+        margin-left: 10px;
+        height: 900px;
+    }
+
+    img{
+        width: 200px;
+    }
+    .pt1{
+        margin-right: -340px;
+        margin-left: 70px;
+    }
+    .t1{
+        margin-left: -40px;
+    }
+    
+
+
+    .pt2{
+        margin-right: 30px;
+        margin-top: 450px;
+    }
+    .t2{
+        margin-left: -55px;
+        
+    }
+
+
+    .pt3{
+        margin-right: -360px;
+    }
+    .t3{
+        margin-left: -7px;
+    }
+
+
+    .pt4{
+        margin-top: 450px;
+    }
+    
+
+video{
+    width: 130px;
+}
+
+.parte01V{
+    margin-right: -290px;
+    margin-top: 550px;
+    margin-left: -600px;
+}
+
+.parte02V{
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.parte03V{
+
+    margin-right: -320px;
+    margin-top: 550px;
+    margin-left: -50px;
+}
+.parte04V{
+    margin-right: -450px;
+}
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 951px) and (max-width: 1151px) {
+    
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .PORTAL{
+        margin-left: 230px;
+    }
+
+    img{
+        scale: 0.83;
+    }
+    h2{
+        scale: 0.75;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -100px;
+    }
+    .t1{
+        margin-left: -50px;
+    }
+    
+    .pt2{
+        margin-right: -120px;
+    }
+
+    .pt3{
+        margin-right: -130px;
+    }
+    .t3{
+        margin-left: -20px;
+    }
+
+    video{
+        width: 130px;
+    }
+
+    .parte01V{
+        width: 280px;
+        margin-right: -25px;
+        margin-left: -280px;
+    }
+    
+    .parte02V{
+        width: 280px;
+        margin-right: 80px;
+    }
+
+    .parte03V{
+        width: 280px;
+        margin-right: 5px;
+        margin-left: -110px !important;
+    }
+
+    .parte04V{
+        width: 280px;
+        margin-left: -40px;
+    }
+
+    
+
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 1151px) and (max-width: 1250px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+    .geral2{
+        height: 500px;
+    }
+    img{
+        scale: 0.85;
+    }
+    h2{
+        scale: 0.90;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -50px;
+    }
+    
+    .pt2{
+        margin-right: -50px;
+    }
+
+    .pt3{
+        margin-right: -80px;
+    }
+    .t3{
+        margin-left: -2px;
+    }
+
+    video{
+        width: 135px;
+    }
+
+    .parte01V{
+        width: 280px;
+        margin-right: -25px;
+        margin-left: -270px;
+    }
+    
+    .parte02V{
+        width: 280px;
+        margin-right: 80px;
+    }
+
+    .parte03V{
+        width: 280px;
+        margin-right: 5px;
+        margin-left: -110px !important;
+    }
+
+    .parte04V{
+        width: 280px;
+        margin-left: -40px;
+    }
+
+
+}
+
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 1251px) and (max-width: 1350px) {
+
+
+    .PORTAL{
+        margin-left: 370px;
+    }
+
+    body{
+        overflow-x: hidden !important;
+    }
+    img{
+        scale: 0.85;
+    }
+    h2{
+        scale: 0.90;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -50px;
+    }
+    
+    .pt2{
+        margin-right: -50px;
+    }
+
+    .pt3{
+        margin-right: -80px;
+    }
+    .t3{
+        margin-left: -2px;
+    }
+
+
+    video{
+        width: 135px;
+    }
+
+    .parte01V{
+        width: 280px;
+        margin-right: 25px;
+        margin-left: -270px;
+    }
+    
+    .parte02V{
+        width: 280px;
+        margin-right: 130px;
+    }
+
+    .parte03V{
+        width: 280px;
+        margin-right: 55px;
+        margin-left: -110px !important;
+    }
+
+    .parte04V{
+        width: 280px;
+        margin-left: -40px;
+    }
+
+
+}
