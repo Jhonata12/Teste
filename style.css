@@ -78,14 +78,14 @@ img:hover{
     margin-left: 15px;
 }
 
-video{
+iframe{
     border-radius: 15px;
     margin: 35px;
     margin-top: 10px !important;
     
 }
 
-video:hover{
+iframe:hover{
     transform: scale(1.06);
     border: solid 1px white;
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
@@ -128,9 +128,10 @@ h2{
     margin-left: 50px;
    }
 
-   video{
+   iframe{
     max-width: 100%;
     width: 170px;
+    height: 280px;
     margin-top: 100px;
    }
 
@@ -238,9 +239,10 @@ h2{
         margin-top: 450px;
     }
 
-    video{
+    iframe{
         width: 150px;
         margin-top: 100px;
+        height: 250px;
        }
     
 
@@ -348,7 +350,7 @@ h2{
     }
     
 
-video{
+    iframe{
     width: 130px;
 }
 
@@ -452,8 +454,9 @@ video{
     }
     
 
-video{
+    iframe{
     width: 130px;
+    height: 250px;
 }
 
 .parte01V{
@@ -517,7 +520,7 @@ video{
         margin-left: -20px;
     }
 
-    video{
+    iframe{
         width: 130px;
     }
 
@@ -581,7 +584,7 @@ video{
         margin-left: -2px;
     }
 
-    video{
+    iframe{
         width: 135px;
     }
 
@@ -647,7 +650,7 @@ video{
     }
 
 
-    video{
+    iframe{
         width: 135px;
     }
 
