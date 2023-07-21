@@ -1,7 +1,7 @@
 body {
     background-color:#6852a5;
     overflow-x: hidden;
-    font-family: Aileron;
+    font-family: 'Roboto', sans-serif;
 }
 .PORTAL{
     width: 500px;
@@ -169,7 +169,7 @@ h2{
 @media (min-width: 370px) and (max-width: 449px){
     
    body{
-    font-family: Aileron;
+    font-family: 'Roboto', sans-serif;
    }
     .PORTAL{
         margin: 0;
@@ -279,7 +279,7 @@ h2{
     
     body{
         overflow-x: hidden !important;
-        font-family: Aileron;
+        font-family: 'Roboto', sans-serif;
     }
     .PORTAL{
         margin: 0;
@@ -386,7 +386,7 @@ h2{
 @media (min-width: 100px) and (max-width: 369px){
     
    body{
-    font-family: Aileron;
+    font-family: 'Roboto', sans-serif;
    }
     .PORTAL{
         margin: 0;
@@ -492,7 +492,7 @@ h2{
     
     body{
         overflow-x: hidden !important;
-        font-family: Aileron;
+        font-family: 'Roboto', sans-serif;
     }
 
     .PORTAL{
@@ -562,7 +562,7 @@ h2{
 
     body{
         overflow-x: hidden !important;
-        font-family: Aileron;
+        font-family: 'Roboto', sans-serif;
     }
     .geral2{
         height: 500px;
@@ -625,7 +625,7 @@ h2{
 @media (min-width: 1251px) and (max-width: 1350px) {
 
     body{
-        font-family: Aileron;
+        font-family: 'Roboto', sans-serif;
        }
     .PORTAL{
         margin-left: 370px;
