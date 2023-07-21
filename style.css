@@ -1,6 +1,7 @@
 body {
     background-color:#6852a5;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 .PORTAL{
     width: 500px;
@@ -92,14 +93,12 @@ iframe:hover{
 }
 
 h1{
-    font-family: Aileron;
     color: white;
 }
 
 h2{
     width: 250px;
     margin-left: -25px;
-    font-family: Aileron;
     color: white;
 }
 .t1{
