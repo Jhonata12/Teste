@@ -78,12 +78,11 @@ img:hover{
 .imgV{
     margin-left: 15px;
 }
-
+/*______________________Videos____________________________________*/
 iframe{
     border-radius: 15px;
     margin: 35px;
     margin-top: 10px !important;
-    
 }
 
 iframe:hover{
@@ -91,6 +90,16 @@ iframe:hover{
     border: solid 1px white;
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
 }
+video{
+    border-radius: 15px;
+}
+video:hover{
+    transform: scale(1.06);
+    border: solid 1px white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+/*______________________Videos____________________________________*/
 
 h1{
     color: white;
