@@ -496,7 +496,9 @@ h2{
     }
 
     .PORTAL{
+        margin-top: -50px;
         margin-left: 230px;
+        width: 500px !important;
     }
 
     img{
